@@ -1,6 +1,15 @@
 # potluck
 
 
+A potluck application: allow guests to 
+1. Add a dish the guest wish to bring to the potluck. 
+2. Search dishes in the dish list.   
+3. Display all dishes for the potluck
+
+     
+Experience this app live on Heroku: https://potluch-dishes.herokuapp.com
+
+
 IPO diagram
 
 | Input                                 | Processing                                                      | Output                                           |
