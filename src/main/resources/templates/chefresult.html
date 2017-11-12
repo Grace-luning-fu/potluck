@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Potluck App</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -38,6 +38,9 @@
 
 </header>
 
+<nav th:replace="base :: navbar"></nav>
+
+
 <section id="about" class="about">
     <div class="container">
         <div class="row">
@@ -64,17 +67,15 @@
                     </table>
                 </div>
 
-                <p class="text-center"> <a href="/chefresult" class="btn btn-dark btn-lg">Search by Chef</a></p>
-                <p class="text-center"><a href="/dishresult" class="btn btn-dark btn-lg">Search by Dish</a></p>
-                <p class="text-center"><a href="/adish" class="btn btn-dark btn-lg">Add another Dish</a></p>
-
-
             </div>
         </div>
         <!-- /.row -->
     </div>
     <!-- /.container -->
 </section>
+
+
+<nav th:replace="base :: footer"></nav>
 
 </body>
 
