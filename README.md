@@ -6,7 +6,7 @@ A potluck application: allow guests to
 2. Search dishes in the dish list.   
 3. Display all dishes for the potluck
 
-
+Experience this app live on Heroku: https://potluch-dishes.herokuapp.com
 
 
 IPO diagram for the Potluck App
